@@ -59,7 +59,7 @@ namespace Stars
 			float starsize =  Map(star.Z, 0, pictureBox1.Width/2, 7,0);
 			float x = Map(star.X / star.Z, 0, 1, 0, pictureBox1.Width) + pictureBox1.Width / 2;
 			float y = Map(star.Y / star.Z, 0, 1, 0, pictureBox1.Height) + pictureBox1.Height / 2;
-			graphics.FillEllipse(Brushes.Blue, x, y, starsize, starsize);
+			graphics.FillEllipse(Brushes.Silver, x, y, starsize, starsize);
 		}
 
 		private float Map (float n, float start1, float stop1, float start2, float stop2)//Сами создали метод, который изменяешь шкалу значений
